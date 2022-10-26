@@ -1,0 +1,50 @@
+@media (max-width: 375px) {
+
+    .component {
+        height: 400px;
+        width: 100%;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+    .component_left,
+    .component_right {
+        width: 375px;
+    }
+
+
+
+    .result {
+        width: 327px;
+        height: 257px;
+    }
+
+    .results {
+        width: 281px;
+    }
+
+    .resetbtn {
+        width: 281px;
+        margin-top: 35px;
+    }
+
+    .bill {
+        margin-top: 15px;
+    }
+
+    .bill input {
+        width: 281px;
+    }
+
+    .people input {
+        width: 281px;
+    }
+
+    .btnprocent {
+        width: 148px;
+    }
+
+    .selectTip input {
+        width: 148px;
+    }
+}

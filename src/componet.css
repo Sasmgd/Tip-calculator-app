@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.component {
+    background-color: white;
+    width: 920px;
+    height: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+}
+
+.component_left {
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.component_right {
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+}
+
+.bill p {
+    font-size: 16px;
+    font-weight: 700px;
+    color: #5E7A7D;
+}
+
+.bill input {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    width: 360px;
+    height: 48px;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #F3F9FA;
+    padding-right: 17px;
+}
+
+.bill {
+    position: relative;
+}
+
+.bill img {
+    width: 9.8px;
+    height: 15.5px;
+    position: absolute;
+    left: 5.08%;
+    top: 67%;
+}
+
+.btnprocent {
+    height: 48px;
+    width: 117px;
+    border-radius: 5px;
+    background: #00474B;
+    margin: 5px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.selectTip {
+    margin-left: 2em;
+}
+
+.selectTip input {
+    width: 118px;
+    height: 48px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+    color: #547878;
+    border: none;
+    background-color: #F3F9FA;
+}
+
+.people input {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    width: 360px;
+    height: 48px;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #F3F9FA;
+    padding-right: 17px;
+    color: #00474B;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.people {
+    position: relative;
+}
+
+.people img {
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+#backactive {
+    background: #26C2AE;
+}
+
+#idborder {
+    border: 2px solid #26C2AE;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #26C2AE;
+}
+
+.result {
+    width: 413px;
+    height: 417px;
+    border-radius: 17px;
+    background-color: #00474B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.person {
+    margin: 0px;
+    color: #7F9D9F;
+    font-size: 13px;
+}
+
+.amout {
+    margin: 0px;
+}
+
+.total {
+    margin: 0px;
+}
+
+.result_top,
+.result_buttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result_butom_right,
+.result_top_right {
+    font-size: 48px;
+    color: #26C2AE;
+}
+
+.resetbtn {
+    height: 48px;
+    width: 333px;
+    border-radius: 5px;
+    background-color: #9FE8DF;
+    margin-top: 122px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00474B;
+}
+
+.results {
+    width: 333px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.cuntbezero1 {
+    color: red;
+    position: relative;
+    left: 7em;
+    top: 2.5em;
+}
